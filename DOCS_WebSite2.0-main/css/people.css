@@ -1,0 +1,64 @@
+body {
+        font-family: Arial, sans-serif;
+        
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 50px;
+    }
+
+    td {
+        text-align: center;
+        padding: 20px;
+        vertical-align: top;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 10px;
+        width: 220px;
+        margin: auto;
+        background-color: #fff;
+    }
+
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+    }
+
+    img {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .title {
+        color: grey;
+        font-size: 14px;
+    }
+
+    button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 10px;
+        color: white;
+        background-color: #04AA6D;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+
+    button:hover {
+        background-color: #045f3b;
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 40px;
+        color: #333;
+        border-bottom: 2px solid #04AA6D;
+        display: inline-block;
+        padding-bottom: 15px;
+    }
